@@ -1,0 +1,140 @@
+.main-container{
+    width: 91.66%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.navbar{
+    margin: 0 auto;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar>div{
+    padding: 10px 0;
+    width: 150px;
+    text-align: center;
+}
+.navbar-link{
+    text-decoration: none;
+    color: #ede5e5;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.nav-checked{
+    background-color: rgba(64, 172, 226, 1);
+    border-radius: 15px;
+}
+
+.log-out-row{
+    display: flex;
+    justify-content: space-between;
+}
+.account-user{
+    min-width: max-content;
+    padding: 10px 20px;
+    margin: 0;
+    background-color: rgba(64, 172, 226, 1);;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.main-button{
+    border-radius: 20px;
+    background-color: rgba(64, 172, 226, 1);
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.input-field{
+    background-color: #F5F6F8;
+    border-radius: 20px;
+    padding: 13px 20px;
+    border: none;
+    margin: 10px;
+    width: 200px;
+}
+.input-field:focus-visible{
+    border: none;
+    outline: none;
+}
+.input-field::placeholder{
+    font-size: 12px;
+}
+.login-box,.register-box{
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+}
+.phone-button{
+    background: #EDEDED;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 51px;
+    width: 51px;
+    color: #231F20;
+    margin: 5px 8px;
+    cursor: pointer;
+}
+.phone-button.green{
+    background-color: #3DBA7E;
+    color: #FFFFFF;
+    width: 90px;
+}
+.phone-container{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: max-content;
+    margin: 0 auto;
+
+}
+.phone-number-input{
+    text-align: end;
+
+}
+.phone-input-box{
+    width: 180px;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0;
+    margin-bottom: 16px;
+    height: 50px;
+
+}
+.alert-container{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
